@@ -8,7 +8,7 @@ public class HelloStatelessSessionBean implements HelloStatelessBeanRemote {
     public HelloStatelessSessionBean() {
     }
 
-    public void printHelloMessage(String message) {
-        System.out.println("Hello Stateless Session Bean Print Message: " + message);
+    public int add(int a, int b) {
+        return a+b;
     }
 }

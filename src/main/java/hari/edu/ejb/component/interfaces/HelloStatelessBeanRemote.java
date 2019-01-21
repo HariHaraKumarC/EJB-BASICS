@@ -5,5 +5,5 @@ import javax.ejb.Remote;
 @Remote
 public interface HelloStatelessBeanRemote {
 
-    void printHelloMessage(String message);
+    int add(int a , int b);
 }
